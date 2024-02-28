@@ -1,0 +1,25 @@
+{
+    "testId": "917b35f3-afd8-4985-bb05-3d1c5d0cbce2",
+    "name": "Send To Workfront",
+    "version": "1.0.4",
+    "manifestVersion": 2,
+    "requirements": {
+        "apps": [
+            {
+                "name": "Express",
+                "apiVersion": 1
+            }
+        ],
+        "privilegedApis": true
+    },
+    "entryPoints": [
+        {
+            "type": "panel",
+            "id": "panel1",
+            "main": "index.html",
+            "permissions": {
+                "sandbox": ["allow-popups-to-escape-sandbox", "allow-popups"]
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "runmode": "dev",
+    "dev":{
+        "CORS_ANYWHERE_URL": "https://cors-anywhere.herokuapp.com/",
+        "ADD_ON_URL": "https://wm48kg6n9.wxp.adobe-addons.com/",
+        "WF_lOGIN_INFO_REST_PATH": "/attask/api/v17.0/login",
+        "WF_USER_TASKS_REST_PATH": "/attask/api/v17.0/task/search?assignmentsUsersMM:ID=$USERID&assignmentsUsersMM:ID_Mod=in&project:statusEquatesWith=CUR"
+    },
+    "prod":{
+        "WF_lOGIN_INFO_REST_PATH": "/attask/api/v17.0/login",
+        "WF_USER_TASKS_REST_PATH": "/attask/api/v17.0/task/search?assignmentsUsersMM:ID=$USERID&assignmentsUsersMM:ID_Mod=in&project:statusEquatesWith=CUR"
+    }
+}
